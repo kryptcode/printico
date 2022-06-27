@@ -4,7 +4,7 @@ import { useRouter } from 'next/router'
 const Header = () => {
     const router = useRouter()
   return (
-    <div className='bg-[#7559a5] py-8'>
+    <div className='home-header z-20 relative py-8'>
         <div className='w-[90%] mx-auto text-white flex items-center justify-between '>
             <h1 className='text-2xl font-semibold' onClick={() => router.push('/')}>
                 PrintIco
@@ -24,10 +24,11 @@ const Header = () => {
                 </button>
             </div>
 
-            <div className='flex md:hidden'>
+            <div className='flex md:hidden cursor-pointer'>
                 <MenuAlt1Icon className='h-8' />
             </div>
         </div>
+        <div className='overlay md:hidden' />
     </div>
   )
 }

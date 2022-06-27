@@ -12,12 +12,20 @@
     background-color: #634693;
 }
 
+.home-header {
+    background-color: #7559a5;
+}
+
 @media only screen and (max-width: 760px) {
     .home-hero {
         background-color: #634693;
     background-image: url('https://i.ibb.co/5B3GLMv/home-hero.webp');
     background-size: cover;
     background-position: center;   
+    }
+
+    .home-header {
+        background-color: #634693;
     }
     
     .overlay {

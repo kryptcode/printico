@@ -20,9 +20,7 @@ const Hero = () => {
                 <img src="./assets/images/home-hero.webp" className='w-[70%] ' alt="" />
             </div>
 
-            <div className='overlay md:hidden'>
-
-            </div>
+            <div className='overlay md:hidden' />
         </div>
     </div>
   )
