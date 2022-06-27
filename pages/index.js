@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Header from '../components/Header'
+import About from '../components/Home/About'
 import Hero from '../components/Home/Hero'
+import OC from '../components/Home/OC'
 
 export default function Home() {
   return (
@@ -13,6 +15,10 @@ export default function Home() {
 
       <Header />
       <Hero />
+      <About />
+      <OC />
+
+      
     </div>
   )
 }
