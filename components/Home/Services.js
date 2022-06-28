@@ -13,8 +13,8 @@ const Services = () => {
             <Service img='./assets/images/mug.svg' text='Printing On Gadgets' />
         </div>
 
-        <div className=' md:w-[65%] mt-16 mx-auto flex justify-between'>
-            <div className='text-lg font-semibold'>
+        <div className=' md:w-[65%] mt-16 mx-auto flex flex-col md:flex-row items-center justify-between'>
+            <div className='text-lg font-semibold hidden md:inline-block'>
             And <span className='text-[#650088]'>14 more</span> services. Check them
             </div>
             <button className='bg-[#650088] text-white text-sm font-semibold px-8 py-1.5 rounded-md hover:opacity-70  mb-10 md:mb-0'>

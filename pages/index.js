@@ -4,6 +4,7 @@ import About from '../components/Home/About'
 import Hero from '../components/Home/Hero'
 import OC from '../components/Home/OC'
 import Services from '../components/Home/Services'
+import Upload from '../components/Home/Upload'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <About />
       <OC />
       <Services />
+      <Upload />
       
     </div>
   )
