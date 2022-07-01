@@ -7,7 +7,7 @@ const Upload = () => {
         <div className='w-[90%] mx-auto upload-bg flex flex-col-reverse  md:space-x-24 md:flex-row  py-24 '>
             <div className='flex-1 bg-white p-10'>
                 <div className='mb-5'>
-                    <h4 className='text-xl font-semibold text-gray-900'>
+                    <h4 className='text-lg md:text-xl font-semibold text-gray-900'>
                         Upload your attachments
                     </h4>
                     <p className='text-sm md:font-semibold'>

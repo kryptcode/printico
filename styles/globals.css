@@ -16,6 +16,31 @@
     background-color: #7559a5;
 }
 
+.tes-img {
+    position: absolute;
+    top: -40%;
+    right: 30px;
+    transform: translateY(50%);
+}
+
+.bg-gs {
+    background: url('https://i.ibb.co/g3Ptkq5/get-started.jpg');
+    z-index: 1;
+}
+
+
+.overlay {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    z-index: 2;
+}
+
 
 @media only screen and (min-width: 760px) {
     .upload-bg {

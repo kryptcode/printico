@@ -1,9 +1,14 @@
 import Head from 'next/head'
+import Footer from '../components/Footer'
 import Header from '../components/Header'
 import About from '../components/Home/About'
+import GetStarted from '../components/Home/GetStarted'
 import Hero from '../components/Home/Hero'
 import OC from '../components/Home/OC'
+import ProductSlider from '../components/Home/ProductSlider/ProductSlider'
+import Progress from '../components/Home/Progress'
 import Services from '../components/Home/Services'
+import Testimonials from '../components/Home/Testimonials'
 import Upload from '../components/Home/Upload'
 
 export default function Home() {
@@ -21,6 +26,11 @@ export default function Home() {
       <OC />
       <Services />
       <Upload />
+      {/* <ProductSlider /> */}
+      <Progress />
+      <Testimonials />
+      <GetStarted />
+      <Footer />
       
     </div>
   )
