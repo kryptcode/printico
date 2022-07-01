@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
         <div className='bg-[#650088] text-white py-16'>
-            <div className='w-[90%] mx-auto flex flex-col-reverse md:flex-row items-center md:items-left text-center md:text-left justify-between gap-y-12 md:gap-y-0'>
+            <div className='w-[90%] mx-auto flex flex-col-reverse md:flex-row items-center md:items-start text-center md:text-left justify-between gap-y-12 md:gap-y-0'>
                 <h1 className='text-4xl font-bold'>
                     PrintIco
                 </h1>
