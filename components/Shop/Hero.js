@@ -2,12 +2,12 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='relative w-[90%] mx-auto flex justify-between my-12 h-[20rem] md:h-auto'>
-        <div className='z-20 text-5xl md:text-[5.2rem] font-black text-[#6a139f] uppercase leading-none '>
+    <div className='relative w-[90%] mx-auto flex justify-between my-24 h-[20rem] md:h-auto'>
+        <div className='z-20 text-5xl md:text-[5.2rem] font-black text-[#6a139f] uppercase shop-hero leading-none '>
             The Best <br /> <span>custom <br /> items</span>
         </div>
         <div className='hidden md:flex flex-col justify-between items-end md:h-[55rem] '>
-            <div className=' text-lg font-semibold text-[#6a139f] mr-16'>
+            <div className=' text-lg font-semibold text-[#6a139f] mr-16 shop-hero'>
             Find your perfect merch <br /> that will fit for any occasion.
             </div>
             <div className='h-24 w-[16rem] bg-[#6a139f] ' />

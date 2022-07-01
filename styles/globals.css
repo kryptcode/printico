@@ -44,9 +44,19 @@
 
 /* Shop ================
 =================================> */
-span {
+.shop-hero span {
     color: transparent;
     -webkit-text-stroke: 2.5px #6a139f;
+}
+
+.women {
+    background-image: url('https://i.ibb.co/N2JpVfx/women.png');
+    background-size: cover;
+}
+
+.men {
+    background-image: url('https://i.ibb.co/jgdmMRJ/men.jpg');
+    background-size: cover;
 }
 
 

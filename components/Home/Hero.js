@@ -1,6 +1,7 @@
-import React from 'react'
+import { useRouter } from 'next/router'
 
 const Hero = () => {
+    const router = useRouter()
   return (
     <div className='relative home-hero py-52 z-20 md:py-16'>
         <div className='w-[90%] mx-auto flex justify-between items-center'>
@@ -11,7 +12,7 @@ const Hero = () => {
                 <p className='mb-8'>
                     Lorem ipsum dolor sit amet consectetur, <br /> adipisicing elit. Quae, consequatur!
                 </p>
-                <button className='py-1.5 px-6 bg-[#f1d22a] text-[#650088] uppercase text-xs font-semibold hover:opacity-80 rounded-md'>
+                <button className='py-1.5 px-6 bg-[#f1d22a] text-[#650088] uppercase text-xs font-semibold hover:opacity-80 rounded-md' onClick={() => router.push('/shop') }>
                     Shop Now
                 </button>
             </div>
