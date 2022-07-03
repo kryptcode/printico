@@ -13,7 +13,7 @@ const GetStarted = () => {
         Sign up and become one of the millions of people <br />
         around the world using PrintStudio.
         </p>
-        <button className='py-2 px-6 bg-[#f1d22a] text-[#650088] uppercase  font-semibold hover:opacity-80 rounded-md '>
+        <button className='py-2 px-6 bg-[#f1d22a] text-[#650088] uppercase  font-semibold hover:opacity-80 rounded-md ' onClick={() => router.push('/signup')} >
           Get Started - It's Free 
         </button>
       </div>
