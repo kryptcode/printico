@@ -1,7 +1,10 @@
-import { MenuAlt1Icon } from '@heroicons/react/outline'
+import { MenuAlt1Icon, XIcon } from '@heroicons/react/outline'
 import { useRouter } from 'next/router'
+import { useState } from 'react'
+import Modal from './Modal'
 
 const Header = () => {
+    const [isOpen, setIsOpen] = useState(false)
     const router = useRouter()
   return (
     <div className='home-header z-20 relative py-8'>
@@ -24,11 +27,21 @@ const Header = () => {
                 </button>
             </div>
 
-            <div className='flex md:hidden cursor-pointer'>
-                <MenuAlt1Icon className='h-8' />
+            <div className='flex md:hidden cursor-pointer' onClick={() => setIsOpen(!isOpen)}>
+                {
+                    isOpen ? (
+                        <XIcon className='h-6' />
+                    ) : (
+                        <MenuAlt1Icon className='h-6' />
+                    )
+                }
             </div>
         </div>
         <div className='overlay md:hidden' />
+
+        {
+            isOpen && <Modal />
+        }
     </div>
   )
 }
